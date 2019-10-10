@@ -37,7 +37,7 @@ begin
     '</html>';
 end;
 
-
+{http://localhost:8080/Do.a?xx=13&yy=800}
 procedure TWebModule1.WebModule1DoActionAction(Sender: TObject;
   Request: TWebRequest; Response: TWebResponse; var Handled: Boolean);
 var
